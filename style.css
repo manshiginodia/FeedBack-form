@@ -1,0 +1,57 @@
+body{font-family: "Comic Sans MS";
+    background-color: rgb(242, 30, 224);
+}
+h2{
+    text-align: center;
+    color:white;
+    float: center;
+    width: 600px;
+    margin-left: 460px;
+    font-size: 35px;
+}
+h4{
+    
+    color:white;
+    left: 50%;
+    width: 600px;
+    margin-left: 460px;
+}
+.feedback{ 
+    border-radius: 50px;
+    width: 100px;
+    padding: 5px;
+}
+.box {
+    background: rgb(242, 239, 239);
+    width: 600px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#suggestion{
+    width:fit-content;
+}
+#submit{
+background-color: green;
+border: 0px;
+color: white;
+height: 30px;
+margin-left: 200px;
+}
+
+#reset {
+background-color: red;
+border: 0px;
+color: white;
+height: 30px;
+margin-right: 200px;
+}
+
+
+    

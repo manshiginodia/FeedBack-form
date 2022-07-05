@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><h2>Feedback</h2>
+    <h4>If you face any issue please feel free to contact us. We'll get back to you as soon as possible</h4>
+    </div><br>
+    <span class="feedback">
+        <form action="./thankyou.html">
+            <ul class="box">
+            <li>First Name: &nbsp; <input type="text">  &emsp; 
+            Last Name:&nbsp; <input type="text"> <br><br> <br></li>
+            <li>Email:&nbsp; <input type="email"><br><br><br></li>
+            <li>Please provide your feedback on the quality of our service:<br>
+            <input type="radio" name="quality">Excellent &emsp;
+            <input type="radio" name="quality">Very Good &emsp;
+            <input type="radio" name="quality">Good &emsp; 
+            <input type="radio" name="quality">Average &emsp;
+            <input type="radio" name="quality">Poor <br><br><br></li>
+            <li>Do you have suggestions on what we can do to provide you with a better service?<br>
+            <br><input type="text" id="suggestion" maxlength="1000"><br><br><br>
+            <input type="submit" value="Submit" id="submit"> &emsp; &emsp; <input type="reset" id="reset" value="Reset">
+        </li></ul>    
+        </form>
+    </span>
+
+
+</body>
+</html>
